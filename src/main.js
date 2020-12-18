@@ -8,6 +8,8 @@ import VueTextareaAutosize from 'vue-textarea-autosize';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+Vue.use(VueTextareaAutosize);
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDjhlNOG10kV5ZoWSJ7XMcyr1pywAgzSVU",
